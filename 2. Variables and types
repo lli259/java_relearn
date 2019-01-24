@@ -1,0 +1,73 @@
+/*
+
+In Java, there are different types of variables, for example:
+
+String - stores text, such as "Hello". String values are surrounded by double quotes
+int - stores integers (whole numbers), without decimals, such as 123 or -123
+float - stores floating point numbers, with decimals, such as 19.99 or -19.99
+char - stores single characters, such as 'a' or 'B'. Char values are surrounded by single quotes
+boolean - stores values with two states: true or false
+
+*/
+
+/*
+Primitive data types - includes byte, short, int, long, float, double, boolean and char
+Non-primitive data types - String, Arrays and Classes
+
+Non-primitive types can be used to call methods to perform certain operations, while primitive types cannot.
+A primitive type starts with a lowercase letter, while non-primitive types starts with an uppercase letter.
+The size of a primitive type depends on the data type, while non-primitive types have all the same size.
+
+Size:
+byte	1 byte	Stores whole numbers from -128 to 127
+short	2 bytes	Stores whole numbers from -32,768 to 32,767
+int	4 bytes	Stores whole numbers from -2,147,483,648 to 2,147,483,647
+long	8 bytes	Stores whole numbers from -9,223,372,036,854,775.808 to 9,223.372,036,854,775,808
+float	4 bytes	Stores fractional numbers from 3.4e−038 to 3.4e+038. Sufficient for storing 6 to 7 decimal digits
+double	8 bytes	Stores fractional numbers from 1.7e−308 to 1.7e+038. Sufficient for storing 15 decimal digits
+boolean	1 byte	Stores true or false values
+char	2 bytes	Stores a single character/letter
+*/
+
+// String starts with a uppercase, "S", as it is Non-primitive data type.
+
+String name = "John";
+System.out.println(name);
+
+String firstName = "John ";
+String lastName = "Doe";
+String fullName = firstName + lastName;
+System.out.println(fullName);
+
+
+
+//int
+int myNum = 15;
+System.out.println(myNum);
+
+int myNum;
+myNum = 15;
+System.out.println(myNum);
+int x = 5;
+int y = 6;
+System.out.println(x + y);
+
+int x = 5, y = 6, z = 50;
+System.out.println(x + y + z);
+
+byte myNum = 100;
+short myNum = 5000;
+int myNum = 15;
+long myNum = 15000000000L;
+
+//float
+float myFloatNum = 5.99f;
+double myNum = 19.99d;
+
+
+//boolean
+boolean myBool = true;
+
+//char
+char myLetter = 'D';
+
