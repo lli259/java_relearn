@@ -1,0 +1,23 @@
+/*
+Arithmetic operators
+Assignment operators
+Comparison operators
+Logical operators
+Bitwise operators
+*/
+
+Arithmetic
++ - * / % -- ++ ^ >> << |
+
+Assignment
+= += -= /= ^= >>=
+
+Comparison
+== != > >= < <=
+
+Logical
+&& || !
+
+//the different between | and || ?
+// bit or and byte or?
+
