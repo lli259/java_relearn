@@ -1,0 +1,45 @@
+// Math is a class. It has many methods that allows you to perform mathematical tasks on numbers.
+
+Math.max(5, 10);
+Math.min(5, 10);
+Math.sqrt(64);
+Math.abs(-4.7);
+Math.random();
+
+
+More:
+abs(x)	Returns the absolute value of x
+acos(x)	Returns the arccosine of x, in radians
+asin(x)	Returns the arcsine of x, in radians
+atan(x)	Returns the arctangent of x as a numeric value between -PI/2 and PI/2 radians
+cbrt(x)	Returns the cube root of x
+ceil(x)	Returns the value of x rounded up to its nearest integer
+copySign(x, y)	Returns the first floating point x with the sign of the second floating point y
+cos(x)	Returns the cosine of x (x is in radians)
+cosh(x)	Returns the hyperbolic cosine of a double value
+exp(x)	Returns the value of Ex
+expm1(x)	Returns ex -1
+floor(x)	Returns the value of x rounded down to its nearest integer
+getExponent(x)	Returns the unbiased exponent used in x
+hypot(x, y)	Returns sqrt(x2 +y2) without intermediate overflow or underflow
+IEEEremainder(x, y)	Computes the remainder operation on x and y as prescribed by the IEEE 754 standard
+log(x)	Returns the natural logarithm (base E) of x
+log10(x)	Returns the base 10 logarithm of x
+log1p(x)	Returns the natural logarithm (base E) of the sum of x and 1
+max(x, y)	Returns the number with the highest value
+min(x, y)	Returns the number with the lowest value
+nextAfter(x, y)	Returns the floating point number adjacent to x in the direction of y
+nextUp(x)	Returns the floating point value adjacent to x in the direction of positive infinity
+pow(x, y)	Returns the value of x to the power of y
+random()	Returns a random number between 0 and 1
+round(x)	Returns the value of x rounded to its nearest integer
+rint()	Returns the double value that is closest to x and equal to a mathematical integer
+signum(x)	Returns the sign of x
+sin(x)	Returns the sine of x (x is in radians)
+sinh(x)	Returns the hyperbolic sine of a double value
+sqrt(x)	Returns the square root of x
+tan(x)	Returns the tangent of an angle
+tanh(x)	Returns the hyperbolic tangent of a double value
+toDegrees(x)	Converts an angle measured in radians to an approx. equivalent angle measured in degrees
+toRadians(x)	Converts an angle measured in degrees to an approx. angle measured in radians
+ulp(x)	Returns the size of the unit of least precision (ulp) of x
