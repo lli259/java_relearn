@@ -1,4 +1,4 @@
-1. install java from oracle.com
+1. install java JDK from oracle.com
 
 2. System Properties > System and Security > System > Advanced System Settings > Environment variables >Advanced >
 Path in System variables >New path, C:\Program Files\Java\jdk-11.0.1\bin;
