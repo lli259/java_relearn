@@ -1,5 +1,6 @@
 //MyClass.java
 //The file name must be the same as the class name, so it is MyClass.java.
+//The class name starts with a uppercase letter.
 
 //create a public class
 //  public class xxx{}
