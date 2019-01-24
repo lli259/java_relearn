@@ -1,0 +1,19 @@
+//MyClass.java
+//The file name must be the same as the class name, so it is MyClass.java.
+
+//create a public class
+//  public class xxx{}
+
+//create a main method to run the program. 
+//  method property： public static void
+//  input: String[] args
+//  public static void main(String[] args){}
+
+//print method is 
+//  System.out.println("xxx")
+
+public class MyClass {
+  public static void main(String[] args) {
+    System.out.println("Hello World");
+  }
+}
