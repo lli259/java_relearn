@@ -1,0 +1,77 @@
+The ArrayList class is a resizable array, which can be found in the java.util package.
+
+The size of an built-in array cannot be modified (if you want to add or remove elements to/from an array, you have to create a new one)
+
+import java.util.ArrayList; // import the ArrayList class
+
+//ClassName<type>
+
+ArrayList<String> cars = new ArrayList<String>(); // Create an ArrayList object to store String;
+
+
+//add method
+
+
+import java.util.ArrayList;
+
+public class MyClass { 
+  public static void main(String[] args) { 
+    ArrayList<String> cars = new ArrayList<String>();
+    cars.add("Volvo");
+    cars.add("BMW");
+    System.out.println(cars);
+  } 
+}
+
+//Access an Item
+cars.get(0)
+
+//Change
+cars.set(0, "Opel");
+
+//remove
+cars.remove(0);
+cars.clear();
+
+//size
+cars.size();
+
+//loop
+for (int i = 0; i < cars.size(); i++) {
+  System.out.println(cars.get(i));
+}
+
+for (String i : cars) {
+  System.out.println(i);
+}
+
+
+//use for other types of object
+//String is a class, you must specify an equivalent wrapper class:
+Use Integer for int, Boolean for boolean, Character for char, Double for double, etc
+
+
+//arraylist sort : use java.util.collections   .sort() function
+
+
+import java.util.ArrayList;
+import java.util.Collections;  // Import the Collections class
+
+public class MyClass { 
+  public static void main(String[] args) { 
+    ArrayList<String> cars = new ArrayList<String>();
+    cars.add("Volvo");
+    cars.add("BMW");
+    cars.add("Ford");
+    cars.add("Mazda");
+
+    Collections.sort(cars);  // Sort cars
+
+    for (String i : cars) {
+      System.out.println(i);
+    }
+  } 
+}
+
+
+
