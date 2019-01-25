@@ -39,7 +39,7 @@ class MyClass {
 
 //compile java
 javac MyPackageClass.java
-//complie package
+//complie package, -d directory . current
 javac -d . MyPackageClass.java
 //to use a class in a package
 java mypack.MyPackageClass
