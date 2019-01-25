@@ -1,0 +1,42 @@
+public class MyClass {
+  static void myMethod() {
+    System.out.println("I just got executed!");
+  }
+
+  public static void main(String[] args) {
+    myMethod();
+  }
+}
+
+/*
+myMethod() is a static void method
+static: it is a class level not objective level method
+void： no return value
+*/
+
+//functions with parameters
+
+public class MyClass {
+  static void myMethod(String fname) {
+    System.out.println(fname + " Refsnes");
+  }
+
+  public static void main(String[] args) {
+    myMethod("Liam");
+    myMethod("Jenny");
+    myMethod("Anja");
+  }
+}
+
+
+//functions with return
+
+public class MyClass {
+  static int myMethod(int x) {
+    return 5 + x;
+  }
+
+  public static void main(String[] args) {
+    System.out.println(myMethod(3));
+  }
+}
