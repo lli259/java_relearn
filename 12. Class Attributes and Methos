@@ -1,0 +1,81 @@
+//variable
+//access by object.variable
+
+public class MyClass {
+  int x = 5;
+
+  public static void main(String[] args) {
+    MyClass myObj = new MyClass();
+    System.out.println(myObj.x);
+  }
+}
+
+//final let variable not be changed.
+public class MyClass {
+  final int x = 10;
+
+  public static void main(String[] args) {
+    MyClass myObj = new MyClass();
+    myObj.x = 25; // will generate an error: cannot assign a value to a final variable
+    System.out.println(myObj.x); 
+  }
+}
+
+
+public class MyClass {
+  static void myMethod() {
+    System.out.println("Hello World!");
+  }
+
+  public static void main(String[] args) {
+    myMethod();
+  }
+}
+
+
+//staic and public methods.
+//class and object level methods
+public class MyClass {
+  // Static method
+  static void myStaticMethod() {
+    System.out.println("Static methods can be called without creating objects");
+  }
+
+  // Public method
+  public void myPublicMethod() {
+    System.out.println("Public methods must be called by creating objects");
+  }
+
+  // Main method
+  public static void main(String[] args) {
+    myStaticMethod(); // Call the static method
+    // myPublicMethod(); This would compile an error
+
+    MyClass myObj = new MyClass(); // Create an object of MyClass
+    myObj.myPublicMethod(); // Call the public method on the object
+  }
+}
+
+
+
+//multiply class
+
+public class Car {
+  public void fullThrottle() {
+    System.out.println("The car is going as fast as it can!");
+  }
+
+  public void speed(int maxSpeed) {
+    System.out.println("Max speed is: " + maxSpeed);
+  }
+}
+
+
+class OtherClass {
+  public static void main(String[] args) {
+    Car myCar = new Car();     // Create a myCar object
+    myCar.fullThrottle();      // Call the fullThrottle() method
+    myCar.speed(200);          // Call the speed() method
+  }
+}
+
