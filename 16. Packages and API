@@ -1,0 +1,47 @@
+//use packages to group related classes and avoid name conflicts.
+
+// Built-in Packages==API 
+//  https://docs.oracle.com/javase/8/docs/api/.
+
+import package.name.Class; // Import a single class 
+import package.name.*; // Import the whole package
+
+import java.util.Scanner;
+//java.util is a package, Scanner is a class.
+
+//get user input
+import java.util.Scanner;
+
+class MyClass {
+  public static void main(String[] args) {
+    Scanner myObj = new Scanner(System.in);
+    System.out.println("Enter username");
+
+    String userName = myObj.nextLine(); 
+    System.out.println("Username is: " + userName); 
+  }
+}
+
+//User-defined Packages
+
+-root
+--mypack
+---MyClass.java
+//create a package, mypack.
+
+package mypack;
+
+class MyClass { 
+  public static void main(String[] args) { 
+    System.out.println("This is my package!"); 
+  } 
+}
+
+//compile java
+javac MyPackageClass.java
+//complie package
+javac -d . MyPackageClass.java
+//to use a class in a package
+java mypack.MyPackageClass
+
+
